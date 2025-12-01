@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>Lan House</title>
+</head>
+<body>
+    <h1>Lan House</h1>
+
+    <form id="form-cadastro">
+        <label for="input-min">Valor a cada 15 minutos (R$):</label>
+        <input type="number" id="input-min" placeholder="Ex: 5" step="0.01" required><br><br>
+
+        <label for="input-temp">Tempo de uso do cliente (em minutos):</label>
+        <input type="number" id="input-temp" placeholder="Ex: 32" required><br><br>
+
+        <button type="submit">Calcular Valor</button>
+    </form>
+
+    <p id="teste"></p>
+</body>
+</html>
