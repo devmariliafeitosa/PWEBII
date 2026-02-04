@@ -18,7 +18,7 @@ const SearchBar = ({ handleSearch }) => {
   return (
     <form className='search-container' onSubmit={handleSubmit}>
       <input
-        type='text'
+        type='text'z
         placeholder='Pesquise por um modelo de carro...'
         value={query || ""}
         onChange={(e) => setQuery(e.target.value)}
