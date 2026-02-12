@@ -1,0 +1,60 @@
+{
+  "anuncios": [
+    {
+      "id": "1",
+      "titulo": "Civic G10 Sport",
+      "descricao": "Honda Civic impecável, câmbio manual de 6 marchas, único dono.",
+      "preco": 110000,
+      "ano": 2018,
+      "quilometragem": 45000,
+      "imagemUrl": "https://tse4.mm.bing.net/th/id/OIP.hqpvXu6eTx9_OhqtEOI8-wHaEK?pid=Api&P=0&h=180",
+      "vendedor": {
+        "nome": "Marília Feitosa",
+        "telefone": "9988887777",
+        "email": "mfeitosa.m@auto.com"
+      }
+    },
+    {
+      "id": "2",
+      "titulo": "Volvo XC40 Recharge",
+      "descricao": "100% elétrico, luxo e segurança extrema com teto solar panorâmico.",
+      "preco": 280000,
+      "ano": 2022,
+      "quilometragem": 12000,
+      "imagemUrl": "https://tse4.mm.bing.net/th/id/OIP.8bArUo6Bsq2PS-zn9qvtcAHaFa?pid=Api&P=0&h=180",
+      "vendedor": {
+        "nome": "Matheus Araújo",
+        "telefone": "85977776666",
+        "email": "matheus.volvo@loja.com"
+      }
+    },
+    {
+      "id": "3",
+      "titulo": "Fiat Toro Ranch",
+      "descricao": "Diesel 4x4, bancos em couro marrom, excelente para estrada e fazenda.",
+      "preco": 145000,
+      "ano": 2020,
+      "quilometragem": 55000,
+      "imagemUrl": "https://tse4.mm.bing.net/th/id/OIP.zq7zJYqsQkbIR09DD6qVhQHaE8?pid=Api&P=0&h=180",
+      "vendedor": {
+        "nome": "Marcos Agro",
+        "telefone": "88966665555",
+        "email": "marcos@fazenda.com"
+      }
+    },
+    {
+      "titulo": "VOLKSWAGEN GOLF",
+      "descricao": "2.0 TSI GTI 16V TURBO GASOLINA 4P AUTOMÁTICO",
+      "preco": 179,
+      "ano": 2017,
+      "quilometragem": 88,
+      "imagemUrl": "https://tse4.mm.bing.net/th/id/OIP.fX8s9OIDok3fqtXN6Q4eNAHaE8?pid=Api&P=0&h=180",
+      "vendedor": {
+        "nome": "Marilia Feitosa",
+        "telefone": "88999556741",
+        "email": "marilia.feitosa.contato@gmail.com"
+      },
+      "id": "lzQSWIf"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.navLinks a {
+  margin-left: 20px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #60a5fa;
+}
