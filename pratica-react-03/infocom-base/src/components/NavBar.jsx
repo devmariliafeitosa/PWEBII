@@ -1,8 +1,10 @@
-import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import './Navbar.css';
+import { FaShoppingCart } from "react-icons/fa";
+import { useCart } from "../hooks/useCart";
+import "./Navbar.css";
 
 export default function Navbar() {
+  const { totalItems } = useCart();
 
   return (
     <header className="navbar">
@@ -13,8 +15,11 @@ export default function Navbar() {
       </h1>
 
       <nav>
-        <Link to="/" className="cart-btn">
+        <Link to="/cart" className="cart-btn">
           <FaShoppingCart size={20} />
+          {totalItems > 0 && (
+            <span className="cart-badge">{totalItems}</span>
+          )}
         </Link>
 
         <button className="login-btn">
