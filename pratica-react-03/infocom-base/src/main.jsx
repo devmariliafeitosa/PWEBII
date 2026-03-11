@@ -3,8 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import Home from "./pages/Home.jsx";
 import ProductDetails from "./pages/ProductDetails.jsx";
+import Cart from "./pages/Cart";
+
+import { CartProvider } from "./contexts/CartContext"; // IMPORTANTE
 
 const router = createBrowserRouter([
   {
@@ -19,12 +23,18 @@ const router = createBrowserRouter([
         path: "products/:id",
         element: <ProductDetails />,
       },
+      {
+        path: "cart",
+        element: <Cart />,
+      },
     ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>,
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
+  </StrictMode>
 );
